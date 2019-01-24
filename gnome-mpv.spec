@@ -20,7 +20,8 @@ BuildRequires:  pkgconfig(appstream-glib)
 BuildRequires:  pkgconfig(epoxy)
 BuildRequires:  pkgconfig(mpv)
 BuildRequires:  pkgconfig(egl)
-Requires:       youtube-dl
+# Available in Contrib, so make it recommends. It is optional anyway.
+Recommends:     youtube-dl
 Requires:       hicolor-icon-theme
 
 %description
