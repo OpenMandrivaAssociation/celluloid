@@ -49,4 +49,4 @@ allowing access to mpv's powerful playback capabilities.
 %{_datadir}/glib-2.0/schemas/io.github.GnomeMpv.gschema.xml
 %{_datadir}/glib-2.0/schemas/org.gnome-mpv.gschema.xml
 %{_datadir}/icons/hicolor/*/apps/*.svg
-%{_mandir}/man1/%{name}.1.gz
+#{_mandir}/man1/%{name}.1.gz
