@@ -1,11 +1,11 @@
 
-Name:           gnome-mpv
-Version:        0.16
+Name:           celluloid
+Version:        0.17
 Release:        1
 License:        GPLv3+
 Summary:        Media player frontend for MPV based on GTK+, similae to SMPlayer but very simple
-URL:            https://github.com/gnome-mpv/gnome-mpv
-Source0:        https://github.com/gnome-mpv/gnome-mpv/releases/download/v%{version}/%{name}-%{version}.tar.xz
+URL:            https://github.com/celluloid-player/celluloid/
+Source0:        https://github.com/celluloid-player/celluloid/releases/download/v%{version}/%{name}-%{version}.tar.xz
 
 BuildRequires:  autoconf2.1
 BuildRequires:  autoconf-archive
@@ -23,6 +23,8 @@ BuildRequires:  pkgconfig(egl)
 # Available in Contrib, so make it recommends. It is optional anyway.
 Recommends:     youtube-dl
 Requires:       hicolor-icon-theme
+
+Obsoletes:  gnome-mpv
 
 %description
 GNOME MPV is a simple GTK+ frontend for mpv. GNOME MPV use mpv library called libmpv,
@@ -44,10 +46,10 @@ allowing access to mpv's powerful playback capabilities.
 %doc AUTHORS README.md
 %license COPYING
 %{_bindir}/%{name}
-%{_datadir}/metainfo/io.github.GnomeMpv.appdata.xml
-%{_datadir}/applications/io.github.GnomeMpv.desktop
-%{_datadir}/dbus-1/services/io.github.GnomeMpv.service
+%{_datadir}/metainfo/io.github.celluloid_player.Celluloid.appdata.xml
+%{_datadir}/applications/io.github.celluloid_player.Celluloid.desktop
+%{_datadir}/dbus-1/services/io.github.celluloid_player.Celluloid.service
 %{_datadir}/glib-2.0/schemas/io.github.GnomeMpv.gschema.xml
-%{_datadir}/glib-2.0/schemas/org.gnome-mpv.gschema.xml
+%{_datadir}/glib-2.0/schemas/io.github.celluloid_player.Celluloid.gschema.xml
 %{_datadir}/icons/hicolor/*/apps/*.svg
-%{_mandir}/man1/gnome-mpv.1.xz
+%{_mandir}/man1/celluloid.1.xz
