@@ -45,11 +45,11 @@ allowing access to mpv's powerful playback capabilities.
 %files -f %{name}.lang
 %doc AUTHORS README.md
 %license COPYING
-#{_bindir}/%{name}
-#{_datadir}/metainfo/io.github.GnomeMpv.appdata.xml
-#{_datadir}/applications/io.github.GnomeMpv.desktop
-#{_datadir}/dbus-1/services/io.github.GnomeMpv.service
-#{_datadir}/glib-2.0/schemas/io.github.GnomeMpv.gschema.xml
-#{_datadir}/glib-2.0/schemas/org.gnome-mpv.gschema.xml
-#{_datadir}/icons/hicolor/*/apps/*.svg
-#{_mandir}/man1/gnome-mpv.1.xz
+%{_bindir}/%{name}
+%{_datadir}/metainfo/io.github.celluloid_player.Celluloid.appdata.xml
+%{_datadir}/applications/io.github.celluloid_player.Celluloid.desktop
+%{_datadir}/dbus-1/services/io.github.celluloid_player.Celluloid.service
+%{_datadir}/glib-2.0/schemas/io.github.GnomeMpv.gschema.xml
+%{_datadir}/glib-2.0/schemas/io.github.celluloid_player.Celluloid.gschema.xml
+%{_datadir}/icons/hicolor/*/apps/*.svg
+%{_mandir}/man1/celluloid.1.xz
