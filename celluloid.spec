@@ -6,6 +6,7 @@ Summary:        Media player frontend for MPV based on GTK+, similae to SMPlayer
 URL:            https://github.com/celluloid-player/celluloid/
 Source0:        https://github.com/celluloid-player/celluloid/releases/download/v%{version}/%{name}-%{version}.tar.xz
 
+BuildRequires:  meson
 BuildRequires:  autoconf2.1
 BuildRequires:  autoconf-archive
 BuildRequires:  automake
@@ -33,11 +34,11 @@ allowing access to mpv's powerful playback capabilities.
 %autosetup
 
 %build
-%configure
-%make_build V=1
+%meson
+%meson_build
 
 %install
-%make_install
+%meson_install
 
 %find_lang %{name}
 
