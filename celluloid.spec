@@ -1,6 +1,6 @@
 
 Name:           celluloid
-Version:        0.17
+Version:        0.17.1
 Release:        1
 License:        GPLv3+
 Summary:        Media player frontend for MPV based on GTK+, similae to SMPlayer but very simple
