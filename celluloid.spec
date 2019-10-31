@@ -1,4 +1,3 @@
-
 Name:           celluloid
 Version:        0.17.1
 Release:        1
