@@ -23,6 +23,7 @@ BuildRequires:  pkgconfig(egl)
 # Available in Contrib, so make it recommends. It is optional anyway.
 Recommends:     youtube-dl
 Requires:       hicolor-icon-theme
+Requires:       mpv
 
 Obsoletes:  gnome-mpv
 
