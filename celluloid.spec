@@ -1,5 +1,5 @@
 Name:           celluloid
-Version:        0.21
+Version:        0.22
 Release:        1
 License:        GPLv3+
 Summary:        Media player frontend for MPV based on GTK+, similae to SMPlayer but very simple
@@ -14,7 +14,7 @@ BuildRequires:  pkgconfig(pkg-config)
 BuildRequires:  desktop-file-utils
 BuildRequires:  pkgconfig(lua)
 BuildRequires:  pkgconfig(glib-2.0)
-BuildRequires:  pkgconfig(gtk+-3.0)
+BuildRequires:  pkgconfig(gtk4)
 BuildRequires:  intltool >= 0.40.6
 BuildRequires:  pkgconfig(appstream-glib)
 BuildRequires:  pkgconfig(epoxy)
