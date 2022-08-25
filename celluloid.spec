@@ -1,5 +1,5 @@
 Name:           celluloid
-Version:        0.23
+Version:        0.24
 Release:        1
 License:        GPLv3+
 Summary:        Media player frontend for MPV based on GTK+, similae to SMPlayer but very simple
@@ -7,11 +7,13 @@ URL:            https://github.com/celluloid-player/celluloid/
 Source0:        https://github.com/celluloid-player/celluloid/releases/download/v%{version}/%{name}-%{version}.tar.xz
 
 BuildRequires:  meson
+BuildRequires:  appstream-util
 BuildRequires:  autoconf2.1
 BuildRequires:  autoconf-archive
 BuildRequires:  automake
 BuildRequires:  pkgconfig(pkg-config)
 BuildRequires:  desktop-file-utils
+BuildRequires:  pkgconfig(libadwaita-1)
 BuildRequires:  pkgconfig(lua)
 BuildRequires:  pkgconfig(glib-2.0)
 BuildRequires:  pkgconfig(gtk4)
