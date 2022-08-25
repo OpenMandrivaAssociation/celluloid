@@ -7,6 +7,7 @@ URL:            https://github.com/celluloid-player/celluloid/
 Source0:        https://github.com/celluloid-player/celluloid/releases/download/v%{version}/%{name}-%{version}.tar.xz
 
 BuildRequires:  meson
+BuildRequires:  appstream-util
 BuildRequires:  autoconf2.1
 BuildRequires:  autoconf-archive
 BuildRequires:  automake
