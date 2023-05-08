@@ -1,6 +1,6 @@
 Name:           celluloid
-Version:        0.24
-Release:        3
+Version:        0.25
+Release:        1
 License:        GPLv3+
 Summary:        Media player frontend for MPV based on GTK+, similae to SMPlayer but very simple
 URL:            https://github.com/celluloid-player/celluloid/
