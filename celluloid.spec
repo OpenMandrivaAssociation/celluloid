@@ -52,7 +52,7 @@ allowing access to mpv's powerful playback capabilities.
 %{_datadir}/metainfo/io.github.celluloid_player.Celluloid.appdata.xml
 %{_datadir}/applications/io.github.celluloid_player.Celluloid.desktop
 %{_datadir}/dbus-1/services/io.github.celluloid_player.Celluloid.service
-%{_datadir}/glib-2.0/schemas/io.github.GnomeMpv.gschema.xml
+#{_datadir}/glib-2.0/schemas/io.github.GnomeMpv.gschema.xml
 %{_datadir}/glib-2.0/schemas/io.github.celluloid_player.Celluloid.gschema.xml
 %{_datadir}/icons/hicolor/*/apps/*.svg
 %{_mandir}/man1/celluloid.1.*
